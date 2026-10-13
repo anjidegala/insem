@@ -1,0 +1,56 @@
+```css
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+    background: #eee;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 15px;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    background: orange;
+    padding: 10px 20px;
+    border: none;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.products div {
+    background: white;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.products div:hover {
+    transform: translateY(-5px);
+}
+
+.products img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+```
